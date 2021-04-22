@@ -24,24 +24,4 @@ public class GetInsuranceTest {
         long insuredNum = 0;
         Assert.assertEquals(5, insuredNum);
     }
-
-    @Test
-    public void findBatmanInsurance() {
-        final String batmanFirstName = "Bruce";
-        final String batmanLastName = "Wayne";
-        long batmanInsuranceId = 0;
-        // your code should be here
-
-        Assert.assertEquals(9999, batmanInsuranceId);
-    }
-
-    @Test
-    public void getExpensiveInsuranceList() {
-        final int expensiveInsuranceThreshold = 500;
-        final List<Insurance> expected = List.of(new Insurance(4231, 500), new Insurance(9999, 5555));
-
-        List<Insurance> actualList = new ArrayList<>(); // your code should be here
-
-        Assert.assertEquals(expected, actualList);
-    }
 }
